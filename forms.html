@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>SIGNUP FORM</title>
+        <style>
+         #body {
+             background-color: rgb(255, 255, 255);
+             
+         }
+        </style>
+        <style>
+            #form {
+                 background-color: rgba(67, 109, 199, 0.753);
+                 width:300px;
+                 padding:20px;
+                 margin-left: auto;
+                 margin-right:auto;
+                
+
+
+            }
+        </style>
+        <style>
+            .input {
+                font-style: normal;
+                margin:0px;
+                margin-bottom: 5px;
+                margin-right: 5px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                text-shadow: crimson;
+            }
+        </style>
+        <style>
+            .input2 {
+                width:88%;
+            }
+            .terms{
+             margin-top: 20px;
+             margin-bottom: 15px;
+            }
+        </style>
+    </head>
+
+    <body background="img3.jpg" id="body"><h1 style="text-align: center; color:ivory;">SIGN UP</h1>
+        <form id="form" method="GET">
+            <div>
+               <p class="input" style=color:white;>FULL NAME :</p>  
+                <input class="input2" type="text" name="full-name">
+            </div>
+            <div>
+                <p class="input"  style=color:white;>EMAIL : </p>
+                <input class="input2" type="email" name="email">
+            </div>
+            <div>
+               <p class="input"  style=color:white;> PASSWORD : </p>
+                <input class="input2" type="password" name="password">
+            </div>
+            <div>
+               <p class="input"  style=color:white;>  CONFIRM PASSWORD : </p>
+                <input class="input2" type="password" name="confirm-password">
+            </div>
+            <div>
+                <p  style=color:white;>DATE-OF-BIRTH</p>
+                <input type="date" name="date" max="2000-01-31">
+                <input type="date" name="date" max="2021-01-31">
+            </div>
+
+
+            <div>
+                <p class="input"  style=color:white;>GENDER : </p>
+                <input type="radio" name="male" value="male"  style=color:white;>
+                FEMALE<input type="radio" name="female" value="female">
+                MALE<input type="radio" name="others" value="others">
+                OTHERS
+            </div>
+            <div>
+               <p class="input"  style=color:white;> SECURITY QUESTION: </p>
+               <select name="security-questions">
+                   <option value="favourite-movie">WHAT IS YOUR FAVOURITE MOVIE?</option>
+                   <option value="favourite-color">WHAT IS YOUR FAVOURITE COLOUR?</option>
+                   <option value="favourite-dish">WHAT IS YOUR FAVOURITE DISH?</option>
+               </select>
+
+            </div>
+            <div>
+                <textarea class="input2" name=" " cols="100" rows="5"></textarea> 
+            </div>
+            <div>
+                <input id="terms" type="checkbox" name="terms and conditions">I AGREE TO THE ABOVE ALL TERMS AND CONDITIONS.
+            </div>
+            <div>
+              <br>  <input type="submit" name="sign upr" value="sign up">
+            </div>
+
+        </form>
+    </body>
+</html>
